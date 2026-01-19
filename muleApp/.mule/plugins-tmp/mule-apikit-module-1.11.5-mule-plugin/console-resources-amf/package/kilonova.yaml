@@ -1,0 +1,7 @@
+product: api-console
+component: build
+version: "6.6"
+
+builder:
+  name: node-npm-lib
+  version: "18"

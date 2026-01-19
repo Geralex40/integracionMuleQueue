@@ -1,0 +1,31 @@
+{
+  "configs": [
+    "system-paradas.xml",
+    "integracion-paradas.xml",
+    "process-api.xml"
+  ],
+  "secureProperties": [],
+  "supportedJavaVersions": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:integracionqueue:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.9.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "api/examples/queue-mensajes.raml",
+        "api/integracion-paradas.raml",
+        "integracion-paradas.xml",
+        "log4j2.xml",
+        "process-api.xml",
+        "system-paradas.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
