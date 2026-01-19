@@ -1,0 +1,61 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Entornos virtuales
+venv/
+.env/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración local
+*.local
+local_settings.py
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos de base de datos (si usas SQLite)
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+tmp/
+temp/
